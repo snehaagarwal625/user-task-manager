@@ -63,7 +63,6 @@ $ npm run test:cov
 ## About the application
 
 ```bash
-# unit tests
 1. Basic Nestjs application managing user and task information.
 2. Designing and developing REST APIs performing CRUD operations
 3. Added Authentication and Authorization respective routes.
