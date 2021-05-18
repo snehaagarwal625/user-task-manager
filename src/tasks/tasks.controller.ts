@@ -25,6 +25,7 @@ export class TasksController {
 
     @Get('/:id')
     getTaskById(@Param('id',ParseIntPipe) id: number, @GetUser() @GetUser() user: User): Promise<Task> {
+        console.log(typeof(id));
         return this.taskService.getTaskById(id, user);
      }
 

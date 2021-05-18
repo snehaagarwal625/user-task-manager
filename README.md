@@ -60,16 +60,19 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## About the application
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+# unit tests
+1. Basic Nestjs application managing user and task information.
+2. Designing and developing REST APIs performing CRUD operations
+3. Added Authentication and Authorization respective routes.
+4. Guarding endpoints for authorized users using Guards
+5. Used TypeORM for database interaction
+6. Performed input validations through Nestjs inbuilt pipes.
+7. Persisting data using a database
+8. Unit testing the application using Jest
+9. Used Data Transfer Objects (DTO)
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+```
